@@ -36,7 +36,7 @@ export default function Registration() {
             <p className="text-gray-300 mb-6">
               Link do webinaru oraz przypomnienie zostanie wysłane na Twój e-mail przed startem.
             </p>
-            <p className="text-purple-400 font-semibold">
+            <p className="text-blue-400 font-semibold">
               📧 Sprawdź swoją skrzynkę: {formData.email}
             </p>
           </div>
@@ -56,7 +56,7 @@ export default function Registration() {
             <p className="text-gray-300">
               Zostaw swoje dane, a wyślę Ci link do pokoju oraz przypomnienie przed startem.
               <br />
-              <span className="text-purple-400 font-semibold">Liczba miejsc jest ograniczona.</span>
+              <span className="text-blue-400 font-semibold">Liczba miejsc jest ograniczona.</span>
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export default function Registration() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
 
@@ -91,7 +91,7 @@ export default function Registration() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
 
@@ -106,7 +106,7 @@ export default function Registration() {
                 required
                 value={formData.level}
                 onChange={handleChange}
-                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
                 <option value="">Wybierz...</option>
                 <option value="junior">Junior (0-2 lata)</option>
@@ -128,7 +128,7 @@ export default function Registration() {
                 required
                 value={formData.goal}
                 onChange={handleChange}
-                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
                 <option value="">Wybierz...</option>
                 <option value="first-clients">Zdobyć pierwsze zlecenia</option>
@@ -142,7 +142,7 @@ export default function Registration() {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105"
+              className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105"
             >
               Zapisz mnie na webinar
             </button>

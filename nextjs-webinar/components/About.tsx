@@ -10,7 +10,7 @@ export default function About() {
 
         <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 sm:p-12">
           <div className="flex flex-col items-center text-center">
-            <div className="w-32 h-32 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full mb-6 flex items-center justify-center">
+            <div className="w-32 h-32 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full mb-6 flex items-center justify-center">
               <span className="text-5xl font-bold text-white">AU</span>
             </div>
 
@@ -18,28 +18,28 @@ export default function About() {
 
             <p className="text-lg text-gray-300 mb-6 max-w-2xl">
               Nazywam się <strong className="text-white">Alan Urban</strong>. Od lat pracuję jako
-              programista i konsultant, a <strong className="text-purple-400">od początku tego roku
-              podpisałem 4 kontrakty B2B</strong>.
+              programista i konsultant, a <strong className="text-blue-400">od początku tego roku
+              podpisałem 4 kontrakty B2B</strong> na usługi programistyczne.
             </p>
 
             <p className="text-lg text-gray-300 mb-8 max-w-2xl">
-              Na tym webinarze nie będzie teorii – pokażę Ci konkretny sposób działania,
+              Na tym webinarze nie będzie teorii z YouTube – pokażę Ci konkretny system zdobywania klientów IT,
               który pozwala mi nie martwić się o pracę, mieć bezpieczeństwo finansowe
               i samemu decydować, z kim pracuję i za ile.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 w-full mt-8">
-              <div className="bg-purple-500/10 border border-purple-500/20 rounded-xl p-6">
+              <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6">
                 <div className="text-3xl mb-2">📝</div>
                 <div className="text-2xl font-bold text-white mb-1">4</div>
                 <p className="text-gray-400 text-sm">Kontrakty B2B w 2025</p>
               </div>
-              <div className="bg-purple-500/10 border border-purple-500/20 rounded-xl p-6">
+              <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6">
                 <div className="text-3xl mb-2">💼</div>
                 <div className="text-2xl font-bold text-white mb-1">0</div>
                 <p className="text-gray-400 text-sm">Wysłanych CV</p>
               </div>
-              <div className="bg-purple-500/10 border border-purple-500/20 rounded-xl p-6">
+              <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6">
                 <div className="text-3xl mb-2">🎯</div>
                 <div className="text-2xl font-bold text-white mb-1">100%</div>
                 <p className="text-gray-400 text-sm">Powtarzalny system</p>

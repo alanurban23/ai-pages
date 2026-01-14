@@ -29,7 +29,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden"
+              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden hover:border-blue-500/30 transition-colors"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
@@ -39,7 +39,7 @@ export default function FAQ() {
                   {faq.question}
                 </span>
                 <svg
-                  className={`w-5 h-5 text-purple-400 flex-shrink-0 transition-transform ${
+                  className={`w-5 h-5 text-blue-400 flex-shrink-0 transition-transform ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"

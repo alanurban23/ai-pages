@@ -3,8 +3,8 @@ export default function Hero() {
     <section className="relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
         <div className="text-center">
-          <div className="inline-block mb-6 px-4 py-2 bg-purple-500/20 backdrop-blur-sm border border-purple-500/30 rounded-full">
-            <span className="text-purple-200 text-sm font-medium">
+          <div className="inline-block mb-6 px-4 py-2 bg-blue-500/20 backdrop-blur-sm border border-blue-500/30 rounded-full">
+            <span className="text-blue-200 text-sm font-medium">
               🗓️ Czwartek, 19:00
             </span>
           </div>
@@ -13,7 +13,7 @@ export default function Hero() {
             Darmowy webinar na żywo
           </h1>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent mb-8">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-8">
             Jak zdobywać zlecenia i kontrakty w IT w 2025 roku
           </h2>
 
@@ -25,7 +25,7 @@ export default function Hero() {
 
           <a
             href="#zapis"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg font-semibold rounded-full hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white text-lg font-semibold rounded-full hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105"
           >
             Zapisz się na webinar
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -37,8 +37,8 @@ export default function Hero() {
 
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full -z-10 opacity-30">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500 rounded-full filter blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-72 h-72 bg-pink-500 rounded-full filter blur-3xl"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-20 right-10 w-72 h-72 bg-cyan-500 rounded-full filter blur-3xl"></div>
       </div>
     </section>
   );
